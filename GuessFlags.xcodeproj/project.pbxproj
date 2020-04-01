@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D47068A2435271800786C43 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4706892435271800786C43 /* Flag.swift */; };
 		2DBF7A2C24340E0200F4051C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A2B24340E0200F4051C /* AppDelegate.swift */; };
 		2DBF7A2E24340E0200F4051C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A2D24340E0200F4051C /* SceneDelegate.swift */; };
 		2DBF7A3024340E0200F4051C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A2F24340E0200F4051C /* ContentView.swift */; };
@@ -15,10 +16,10 @@
 		2DBF7A3824340E0300F4051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A3624340E0300F4051C /* LaunchScreen.storyboard */; };
 		2DBF7A44243416A400F4051C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A43243416A400F4051C /* data.json */; };
 		2DBF7A472434172600F4051C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A462434172600F4051C /* Data.swift */; };
-		2DBF7A492434178D00F4051C /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A482434178D00F4051C /* Flag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4706892435271800786C43 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 		2DBF7A2824340E0200F4051C /* GuessFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBF7A2B24340E0200F4051C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBF7A2D24340E0200F4051C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		2DBF7A3924340E0300F4051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBF7A43243416A400F4051C /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		2DBF7A462434172600F4051C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		2DBF7A482434178D00F4051C /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Resources/Flag.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		2DBF7A452434170A00F4051C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2DBF7A482434178D00F4051C /* Flag.swift */,
+				2D4706892435271800786C43 /* Flag.swift */,
 				2DBF7A462434172600F4051C /* Data.swift */,
 			);
 			path = Models;
@@ -181,8 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBF7A2C24340E0200F4051C /* AppDelegate.swift in Sources */,
+				2D47068A2435271800786C43 /* Flag.swift in Sources */,
 				2DBF7A2E24340E0200F4051C /* SceneDelegate.swift in Sources */,
-				2DBF7A492434178D00F4051C /* Flag.swift in Sources */,
 				2DBF7A3024340E0200F4051C /* ContentView.swift in Sources */,
 				2DBF7A472434172600F4051C /* Data.swift in Sources */,
 			);
