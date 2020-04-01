@@ -13,6 +13,9 @@
 		2DBF7A3224340E0300F4051C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A3124340E0300F4051C /* Assets.xcassets */; };
 		2DBF7A3524340E0300F4051C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A3424340E0300F4051C /* Preview Assets.xcassets */; };
 		2DBF7A3824340E0300F4051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A3624340E0300F4051C /* LaunchScreen.storyboard */; };
+		2DBF7A44243416A400F4051C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF7A43243416A400F4051C /* data.json */; };
+		2DBF7A472434172600F4051C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A462434172600F4051C /* Data.swift */; };
+		2DBF7A492434178D00F4051C /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF7A482434178D00F4051C /* Flag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2DBF7A3424340E0300F4051C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DBF7A3724340E0300F4051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DBF7A3924340E0300F4051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBF7A43243416A400F4051C /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2DBF7A462434172600F4051C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2DBF7A482434178D00F4051C /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Resources/Flag.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 		2DBF7A1F24340E0200F4051C = {
 			isa = PBXGroup;
 			children = (
+				2DBF7A452434170A00F4051C /* Models */,
+				2DBF7A422434168000F4051C /* Resources */,
 				2DBF7A2A24340E0200F4051C /* GuessFlags */,
 				2DBF7A2924340E0200F4051C /* Products */,
 			);
@@ -56,6 +64,7 @@
 		2DBF7A2A24340E0200F4051C /* GuessFlags */ = {
 			isa = PBXGroup;
 			children = (
+				2DBF7A3F243412FC00F4051C /* FlagImages */,
 				2DBF7A2B24340E0200F4051C /* AppDelegate.swift */,
 				2DBF7A2D24340E0200F4051C /* SceneDelegate.swift */,
 				2DBF7A2F24340E0200F4051C /* ContentView.swift */,
@@ -73,6 +82,30 @@
 				2DBF7A3424340E0300F4051C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DBF7A3F243412FC00F4051C /* FlagImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlagImages;
+			sourceTree = "<group>";
+		};
+		2DBF7A422434168000F4051C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF7A43243416A400F4051C /* data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DBF7A452434170A00F4051C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF7A482434178D00F4051C /* Flag.swift */,
+				2DBF7A462434172600F4051C /* Data.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +168,7 @@
 			files = (
 				2DBF7A3824340E0300F4051C /* LaunchScreen.storyboard in Resources */,
 				2DBF7A3524340E0300F4051C /* Preview Assets.xcassets in Resources */,
+				2DBF7A44243416A400F4051C /* data.json in Resources */,
 				2DBF7A3224340E0300F4051C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +182,9 @@
 			files = (
 				2DBF7A2C24340E0200F4051C /* AppDelegate.swift in Sources */,
 				2DBF7A2E24340E0200F4051C /* SceneDelegate.swift in Sources */,
+				2DBF7A492434178D00F4051C /* Flag.swift in Sources */,
 				2DBF7A3024340E0200F4051C /* ContentView.swift in Sources */,
+				2DBF7A472434172600F4051C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
